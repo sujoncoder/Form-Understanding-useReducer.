@@ -1,10 +1,10 @@
 import React from "react";
-import Form from "./component/Form";
+import LongForm from "./pages/LongForm";
 
 function App() {
   return (
     <div>
-      <Form/>
+      <LongForm/>
     </div>
   );
 }
