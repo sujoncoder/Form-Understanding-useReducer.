@@ -74,7 +74,6 @@ const LongForm = () => {
           <div className='flex gap-3'>
             <div>
               <input
-              className="border-2 rounded h-10"
                 type='radio'
                 id='male'
                 name='gender'
@@ -150,13 +149,13 @@ const LongForm = () => {
         <div className='flex flex-col w-full max-w-xs'>
           <label className='mb-3'>Number of PCs</label>
           <div className='flex justify-between items-center gap-2 '>
-            <button className='bg-indigo-500 text-lg text-white rounded h-10 w-10 '>
+            <button className='bg-indigo-500 active:bg-indigo-600 font-bold text-lg text-white rounded h-10 w-10 '>
               -
             </button>
             <div className='border flex-1 flex justify-center items-center h-10 rounded-md border-gray-300'>
               <span className='text-lg'>0</span>
             </div>
-            <button className='bg-indigo-500 text-lg text-white rounded h-10 w-10'>
+            <button className='bg-indigo-500 font-bold active:bg-indigo-600 text-lg text-white rounded h-10 w-10'>
               +
             </button>
           </div>
@@ -191,7 +190,7 @@ const LongForm = () => {
             />
             <label for='terms'>I agree to terms and conditions</label>
           </div>
-          
+
           <button
             className=' px-4 py-3 cursor-pointer active:bg-indigo-600 bg-indigo-500 rounded-md font-semibold text-white text-lg disabled:bg-gray-500'
             type='submit'
